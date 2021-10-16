@@ -1,8 +1,8 @@
 import Head from "next/head";
-import Header from "./components/Header";
-import Movies from "./components/Movies";
-import Nav from "./components/Nav";
-import requests from "./utils/requests";
+import Header from "../components/Header";
+import Movies from "../components/Movies";
+import Nav from "../components/Nav";
+import requests from "../utils/requests";
 
 export default function Home({ results }) {
   return (
